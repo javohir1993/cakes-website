@@ -1,0 +1,287 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+       url("../fonts/playfair-display-v21-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/playfair-display-v21-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+       url("../fonts/playfair-display-v21-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/playfair-display-v21-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* bad-script-regular - latin */
+@font-face {
+  font-family: "Bad Script";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/BadScript-Regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/BadScript-Regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+       url("../fonts/open-sans-v18-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/open-sans-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+       url("../fonts/open-sans-v18-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/open-sans-v18-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  line-height: 1.5;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  background-color: #fbebea;
+  background-image: url("../img/body-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 280px) 160px;
+}
+
+.button {
+  display: inline-block;
+  padding: 21px 66px;
+  border-radius: 26px;
+  background-color: #f50049;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.site-header__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sitenav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo-link {
+  display: block;
+  margin-right: 47px;
+}
+
+.logo-link__img {
+  width: 67px;
+  height: 17px;
+}
+
+.sitenav__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sitenav__item {
+  margin-right: 44px;
+}
+
+.sitenav__link {
+  display: block;
+  color: #2d2829;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 32.06px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sitenav__item--active .sitenav__link {
+  color: #f50049;
+}
+
+.site-header__tel-link {
+  display: block;
+  color: #2d2829;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 39.53px;
+  text-decoration: none;
+}
+
+.hero {
+  padding-top: 105px;
+  padding-bottom: 180px;
+}
+
+.hero__title {
+  width: 330px;
+  margin: 0;
+  margin-bottom: 31px;
+  color: #2e2829;
+  font-family: "Playfair Display";
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 3px;
+}
+
+.hero__text {
+  font-family: "Bad Script", cursive;
+  margin: 0;
+  margin-bottom: 58px;
+  color: #32313d;
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 77.95px;
+}
+
+.hero__button {
+  margin-bottom: 128px;
+}
+
+.hero__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hero__item {
+  display: inline-flex;
+  align-items: center;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hero__item::before {
+  display: inline-block;
+  margin-right: 14px;
+  content: "";
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.hero__item--natural {
+  width: 160px;
+  margin-right: 70px;
+}
+
+.hero__item--natural::before {
+  background-image: url("../img/natural-icon.png");
+}
+
+.hero__item--delivery {
+  width: 250px;
+}
+
+.hero__item--delivery::before {
+  background-image: url("../img/delivery-icon.png");
+}
+
+.demo {
+  padding-top: 50px;
+  padding-bottom: 55px;
+}
+
+.demo__title {
+  margin: 0;
+  margin-bottom: 63px;
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65.96px;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  body {
+    background-image: url("../img/body-bg@2x.png");
+  }
+
+  .hero__item--natural::before {
+    background-image: url("../img/natural-icon@2x.png");
+  }
+
+  .hero__item--delivery::before {
+    background-image: url("../img/delivery-icon@2x.png");
+  }
+
+}
