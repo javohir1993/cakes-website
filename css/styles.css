@@ -383,6 +383,93 @@ img {
 }
 
 
+/* About Us */
+
+.about-us {
+  padding-top: 100px;
+  padding-bottom: 43px;
+  background-image: url("../img/about-us-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 320px) 85px;
+  background-size: 509px 510px;
+}
+
+.about-us__title {
+  margin: 0;
+  margin-bottom: 33px;
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.about-us__info {
+  max-width: 552px;
+}
+
+.about-us__chef {
+  margin: 0;
+  margin-bottom: 9px;
+  color: #32313d;
+  font-family: "Bad Script";
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.about-us__item-title {
+  margin: 0;
+  margin-bottom: 13px;
+  color: #2d2829;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.about-us__item-text {
+  margin: 0;
+  margin-bottom: 25px;
+  color: #2d2829;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-us__socials {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.about-us__social {
+  margin-right: 17px;
+}
+
+.about-us__social-link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about-us__instagram {
+  background-image: url("../img/instagram-icon.png");
+  background-size: 18px;
+}
+
+.about-us__vkontakte {
+  background-image: url("../img/vkontakte-icon.png");
+  background-size: 25px 17px;
+}
+
+.about-us__twitter {
+  background-image: url("../img/twitter-icon.png");
+  background-size: 19px 16px;
+}
+
+
 /* CONTACTS */
 
 .contacts {
@@ -533,6 +620,22 @@ only screen and (                min-resolution: 2dppx) {
     background-image: url("../img/reviews-bg.png");
   }
 
+  .about-us {
+    background-image: url("../img/about-us-bg.jpg");
+  }
+
+  .about-us__instagram {
+    background-image: url("../img/instagram-icon@2x.png");
+  }
+
+  .about-us__vkontakte {
+    background-image: url("../img/vkontakte-icon@2x.png");
+  }
+
+  .about-us__twitter {
+    background-image: url("../img/twitter-icon@2x.png");
+  }
+
   .instagram {
     background-image: url("../img/instagram-icon@2x.png");
   }
@@ -540,5 +643,4 @@ only screen and (                min-resolution: 2dppx) {
   .vkontakte {
     background-image: url("../img/vkontakte-icon@2x.png");
   }
-
 }
