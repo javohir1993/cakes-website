@@ -262,6 +262,117 @@ img {
   line-height: 65.96px;
 }
 
+.reviews {
+  padding-top: 115px;
+  padding-bottom: 75px;
+  background-image: url("../img/reviews-bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.reviews__title {
+  margin: 0;
+  margin-bottom: 64px;
+  text-align: center;
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65.96px;
+  letter-spacing: 0.15px;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 14px;
+}
+
+.review__button {
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.review__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 625px;
+}
+
+.review__info {
+  width: 355px;
+}
+
+.review__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  color: #2d2829;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.review__text {
+  margin: 0;
+  margin-bottom: 27px;
+  color: #2d2829;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.review__blockquote {
+  margin: 0;
+  color: #2d2829;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.56px;
+}
+
+.blockquote__button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #f50049;
+  color: #f50049;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 25.62px;
+  cursor: pointer;
+}
+
+.review__img {
+  display: block;
+  width: 209px;
+  height: 209px;
+  border-radius: 50%;
+}
+
+.reviews__pages {
+  width: 750px;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  color: #f50049;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.62px;
+  opacity: 0.7;
+}
+
+
+
+
+
 
 
 @media
@@ -282,6 +393,10 @@ only screen and (                min-resolution: 2dppx) {
 
   .hero__item--delivery::before {
     background-image: url("../img/delivery-icon@2x.png");
+  }
+
+  .reviews {
+    background-image: url("../img/reviews-bg.png");
   }
 
 }
