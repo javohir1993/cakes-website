@@ -76,6 +76,7 @@ body {
   display: inline-block;
   padding: 21px 66px;
   border-radius: 26px;
+  border: none;
   background-color: #f50049;
   color: #ffffff;
   font-size: 13px;
@@ -107,6 +108,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* HEADER */
 
 .site-header {
   padding-top: 60px;
@@ -171,6 +175,9 @@ img {
   line-height: 39.53px;
   text-decoration: none;
 }
+
+
+/* HERO */
 
 .hero {
   padding-top: 105px;
@@ -247,6 +254,9 @@ img {
   background-image: url("../img/delivery-icon.png");
 }
 
+
+/* DEMO */
+
 .demo {
   padding-top: 50px;
   padding-bottom: 55px;
@@ -261,6 +271,9 @@ img {
   font-weight: 700;
   line-height: 65.96px;
 }
+
+
+/* REVIEWS */
 
 .reviews {
   padding-top: 115px;
@@ -370,6 +383,127 @@ img {
 }
 
 
+/* CONTACTS */
+
+.contacts {
+  padding-top: 82px;
+  padding-bottom: 300px;
+  background-image: url("../img/contacts-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 240px) bottom;
+}
+
+.contacts__title {
+  margin: 0;
+  margin-bottom: 42px;
+  color: #2d2829;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65.96px;
+}
+
+.contacts__text {
+  margin: 0;
+  margin-bottom: 19px;
+  font-family: "Bad Script";
+  color: #32313d;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.contacts__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts__form {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  margin-right: 85px;
+}
+
+.contacts__form-text {
+  margin: 0;
+  margin-bottom: 50px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.contacts__form-input {
+  width: 100%;
+  padding-top: 40px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  opacity: 0.2;
+  color: #000000;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contacts__form-button {
+  margin-top: 83px;
+  text-transform: capitalize;
+  color: #fefefe;
+  font-size: 19px;
+  font-weight: 400
+}
+
+.contacts__footer-item {
+  display: block;
+  margin-bottom: 37px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.contacts__socials-heading {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.contacts__socials-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.contacts__socials-item {
+  margin-right: 30px;
+}
+
+.contacts__socials-link {
+  display: block;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.instagram {
+  background-image: url("../img/instagram-icon.png");
+  background-size: 28px;
+}
+
+.vkontakte {
+  background-image: url("../img/vkontakte-icon.png");
+  background-size: 41px 29px;
+}
+
+
 
 
 
@@ -397,6 +531,14 @@ only screen and (                min-resolution: 2dppx) {
 
   .reviews {
     background-image: url("../img/reviews-bg.png");
+  }
+
+  .instagram {
+    background-image: url("../img/instagram-icon@2x.png");
+  }
+
+  .vkontakte {
+    background-image: url("../img/vkontakte-icon@2x.png");
   }
 
 }
